@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+body > * {flex-shrink: 0;}
+footer{flex-grow: 1;}
+/*https://stackoverflow.com/questions/147528/how-do-i-force-a-div-block-to-extend-to-the-bottom-of-a-page-even-if-it-has-no-c*/
+
+
+body > footer{
+    padding-top: 40;
+    background-color: beige;
+    font-size: 24px;
+}
+body > footer > nav.menu > ul{
+    align-items: stretch;
+    justify-content: space-between;
+    /***https://stackoverflow.com/questions/23226888/horizontal-list-items-fit-to-100-with-even-spacing***/
+}
+body > footer > p{
+    padding-top: 30px;
+}
+
+body > footer > p > a:any-link{
+    text-decoration: none;
+    color:#51279b
+}
+
+body > footer > p > a:any-link:hover{
+    color:#8662c7
+}

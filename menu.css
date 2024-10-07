@@ -1,0 +1,36 @@
+body > header > nav.menu{
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    size: 60px;
+}
+
+body > header > * {
+    padding-left:30px;
+}
+
+nav{
+    background-color: beige;
+}
+
+
+
+nav.menu ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    font-size: 24px;
+}
+
+nav.menu li{
+    padding: 20px
+}
+nav.menu a:any-link{
+    margin-left: 20px;
+    background: transparent;
+    color: #51279b;
+    text-decoration:none;
+}
+
+nav.menu a:any-link:hover{
+    color: #8662c7
+}
